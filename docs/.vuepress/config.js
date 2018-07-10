@@ -10,8 +10,8 @@ const build = [
 
 const reactVue = [
   '',
-  'mpvue踩坑笔记',
-  'vue源码学习'
+  'try-mpvue',
+  'read-vue'
 ]
 
 module.exports = {
