@@ -8,6 +8,12 @@ const build = [
   'webpack',
 ]
 
+const reactVue = [
+  '',
+  'mpvue踩坑笔记',
+  'vue源码学习'
+]
+
 module.exports = {
   dest: 'vuepress',
   locales: {
@@ -52,6 +58,7 @@ module.exports = {
     ],
     sidebar: {
       '/javaScript/': genSidebarConfig('JavaScript', javaScript),
+      '/react-vue/': genSidebarConfig('react/vue', reactVue),
       '/build/': genSidebarConfig('项目构建', build)
     },
   }

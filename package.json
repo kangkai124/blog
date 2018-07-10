@@ -79,6 +79,7 @@
     "prismjs": "^1.13.0",
     "register-service-worker": "^1.2.0",
     "semver": "^5.5.0",
+    "shelljs": "^0.8.2",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
     "toml": "^2.3.3",
