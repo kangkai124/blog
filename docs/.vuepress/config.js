@@ -53,7 +53,7 @@ module.exports = {
       },
       {
         text: '摄影',
-        link: '/photo/'
+        link: 'https://kangkai.tuchong.com/'
       }
     ],
     sidebar: {
