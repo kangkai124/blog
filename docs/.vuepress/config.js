@@ -14,6 +14,26 @@ const reactVue = [
   'read-vue'
 ]
 
+const performanceOptimization = [
+  '',
+  'functional-code'
+]
+
+const fe = [
+  'how-vue-detect-changes'
+]
+
+const share = [
+  {
+    title: '杂谈',
+    children: performanceOptimization
+  },
+  {
+    title: '前端框架',
+    children: fe
+  }
+]
+
 module.exports = {
   dest: 'vuepress',
   locales: {
@@ -52,6 +72,12 @@ module.exports = {
         ],
       },
       {
+        text: '转载',
+        items: [
+          { text: '前端', link: '/share/fe/' },
+        ]
+      },
+      {
         text: '摄影',
         link: 'https://kangkai.tuchong.com/'
       }
@@ -59,7 +85,8 @@ module.exports = {
     sidebar: {
       '/javaScript/': genSidebarConfig('JavaScript', javaScript),
       '/react-vue/': genSidebarConfig('react/vue', reactVue),
-      '/build/': genSidebarConfig('项目构建', build)
+      '/build/': genSidebarConfig('项目构建', build),
+      '/share/fe/': genMulSidebarConf(share),
     },
   }
 }
@@ -72,4 +99,12 @@ function genSidebarConfig (title, children) {
       collapsable: true,
     }
   ]
+}
+
+function genMulSidebarConf (list) {
+  return list.map(l => ({
+    title: l.title,
+    children: l.children,
+    collapsable: true
+  }))
 }
