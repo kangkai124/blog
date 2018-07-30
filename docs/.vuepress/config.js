@@ -16,11 +16,13 @@ const reactVue = [
 
 const performanceOptimization = [
   '',
-  'functional-code'
+  'functional-code',
+  'sso-cas',
 ]
 
 const fe = [
-  'how-vue-detect-changes'
+  'how-vue-detect-changes',
+  'vue-access',
 ]
 
 const share = [
@@ -64,11 +66,12 @@ module.exports = {
       {
         text: '笔记',
         items: [
-          { text: 'JavaScript', link: '/javaScript/'},
-          { text: 'html/css', link: '/html-css/'},
-          { text: 'react/vue', link: '/react-vue/'},
-          { text: 'nodeJs', link: '/nodeJs/'},
-          { text: 'build', link: '/build/'},
+          { text: 'JavaScript', link: '/javaScript/' },
+          { text: 'html/css', link: '/html-css/' },
+          { text: 'react/vue', link: '/react-vue/' },
+          { text: 'nodeJs', link: '/nodeJs/' },
+          { text: 'build', link: '/build/' },
+          { text: 'thoughts', link: '/thoughts/' }
         ],
       },
       {
@@ -95,7 +98,7 @@ function genSidebarConfig (title, children) {
   return [
     {
       title,
-      children, 
+      children,
       collapsable: true,
     }
   ]
