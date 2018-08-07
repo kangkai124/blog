@@ -25,6 +25,10 @@ const fe = [
   'vue-access',
 ]
 
+// const k2data = [
+//   ''
+// ]
+
 const share = [
   {
     title: '杂谈',
@@ -77,7 +81,8 @@ module.exports = {
       {
         text: '转载',
         items: [
-          { text: '前端', link: '/share/fe/' },
+          { text: 'K2data', link: '/share/k2data/'},
+          { text: '大佬博客', link: '/share/fe/' },
         ]
       },
       {
