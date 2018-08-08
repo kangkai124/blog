@@ -25,9 +25,10 @@ const fe = [
   'vue-access',
 ]
 
-// const k2data = [
-//   ''
-// ]
+const css = [
+  'awesome-css-1',
+  'awesome-css-2'
+]
 
 const share = [
   {
@@ -37,6 +38,10 @@ const share = [
   {
     title: '前端框架',
     children: fe
+  },
+  {
+    title: 'css',
+    children: css
   }
 ]
 
