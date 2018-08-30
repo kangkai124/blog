@@ -87,12 +87,15 @@ module.exports = {
         text: '转载',
         items: [
           { text: 'K2data', link: '/share/k2data/'},
-          { text: '大佬博客', link: '/share/fe/' },
+          { text: '博客', link: '/share/fe/' },
         ]
       },
       {
         text: '摄影',
-        link: 'https://kangkai.tuchong.com/'
+        items: [
+          { text: '图虫', link: 'https://kangkai.tuchong.com/' },
+          { text: '原创文章', link: '/photo/' }
+        ]
       }
     ],
     sidebar: {
