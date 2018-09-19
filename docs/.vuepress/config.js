@@ -6,6 +6,7 @@ const javaScript = [
 const build = [
   '',
   'webpack',
+  'docker'
 ]
 
 const reactVue = [
