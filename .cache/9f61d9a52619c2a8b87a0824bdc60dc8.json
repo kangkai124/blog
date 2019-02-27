@@ -1,1 +1,0 @@
-{"dependencies":[],"generated":{"js":"class Point {\n  constructor(x, y) {\n    this.x = x;\n    this.y = y;\n  }\n\n  toString() {\n    return `(${this.x}, ${this.y})`;\n  }\n}\n\nconsole.log('typeof Point is \\x1b[32m%s', typeof Point);\nconsole.log(Point === Point.prototype.constructor);"},"hash":"bcc89d873e14d1a24b7e39480b135ea4"}
