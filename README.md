@@ -1,10 +1,11 @@
-<p align="center">
-  <a href="http://imkk.asia" target="_blank">
-    <img width="280" src="https://raw.githubusercontent.com/vuejs/vuepress/master/docs/.vuepress/public/hero.png" alt="logo">
-  </a>
-</p>
+![GitHub last commit](https://img.shields.io/github/last-commit/kangkai124/blog.svg?color=orange)
 
+![GitHub](https://img.shields.io/github/license/kangkai124/blog.svg)
 
-# KK | FE
-
-> 我的笔记
+## 问题分类：
+1. [mbp](https://github.com/kangkai124/blog/issues/1)
+2. [ANSI Escape Sequences](https://github.com/kangkai124/blog/issues/2)
+3. [webpack](https://github.com/kangkai124/blog/issues/3)
+4. [js](https://github.com/kangkai124/blog/issues/4)
+5. [vscode,atom,etc](https://github.com/kangkai124/blog/issues/5)
+6. [chrome](https://github.com/kangkai124/blog/issues/6)
