@@ -9,3 +9,6 @@
 4. [js](https://github.com/kangkai124/blog/issues/4)
 5. [vscode,atom,etc](https://github.com/kangkai124/blog/issues/5)
 6. [chrome](https://github.com/kangkai124/blog/issues/6)
+
+## 前端体系框架
+![前端体系框架](./assets/fe-map.png)

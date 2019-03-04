@@ -5,3 +5,6 @@ node_modules
 vuepress
 TODOs.md
 *.lock
+dist
+.cache
+.vscode
