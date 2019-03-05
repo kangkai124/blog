@@ -1,0 +1,15 @@
+{
+  "name": "commander-learn",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "kangkai <kkstrive0124@gmail.com> (https://github.com/kangkai124)",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0"
+  }
+}
