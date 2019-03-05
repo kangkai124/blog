@@ -11,4 +11,4 @@
 6. [chrome](https://github.com/kangkai124/blog/issues/6)
 
 ## 前端体系框架
-![前端体系框架](./assets/fe-map.png)
+![前端体系框架](./assets/fe-system.jpg)
