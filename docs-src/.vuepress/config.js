@@ -47,6 +47,7 @@ const share = [
 ]
 
 module.exports = {
+  base: '/blog/',
   dest: 'docs',
   locales: {
     '/': {
