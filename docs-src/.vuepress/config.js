@@ -47,12 +47,12 @@ const share = [
 ]
 
 module.exports = {
-  dest: 'vuepress',
+  dest: 'docs',
   locales: {
     '/': {
       lang: 'zh-CN',
       title: 'KK | FE',
-      description: 'Code, Photography, and Sports'
+      description: 'Code, Guitar, Photography, and Sports'
     }
   },
   head: [
@@ -71,7 +71,7 @@ module.exports = {
   themeConfig: {
     repo: 'kangkai124',
     editLinks: true,
-    docsDir: 'docs',
+    docsDir: 'docs-src',
     nav: [
       {
         text: '笔记',

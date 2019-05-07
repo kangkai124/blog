@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>不定期更新的CSS奇淫技巧（二） | KK | FE</title>
+    <meta name="description" content="Code, Guitar, Photography, and Sports">
+    <link rel="icon" href="/logo_small.jpg">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#3eaf7c">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-icon" href="/icons/apple-touch-icon-152x152.png">
+  <link rel="mask-icon" href="/icons/safari-pinned-tab.svg" color="#3eaf7c">
+  <meta name="msapplication-TileImage" content="/icons/msapplication-icon-144x144.png">
+  <meta name="msapplication-TileColor" content="#000000">
+    
+    <link rel="preload" href="/assets/css/0.styles.4b10c28d.css" as="style"><link rel="preload" href="/assets/js/app.78b8ba49.js" as="script"><link rel="preload" href="/assets/js/19.2b375517.js" as="script"><link rel="prefetch" href="/assets/js/1.30b2587f.js"><link rel="prefetch" href="/assets/js/2.ca22baaf.js"><link rel="prefetch" href="/assets/js/3.174657bf.js"><link rel="prefetch" href="/assets/js/4.adf40659.js"><link rel="prefetch" href="/assets/js/5.df7f55d9.js"><link rel="prefetch" href="/assets/js/6.9be065d6.js"><link rel="prefetch" href="/assets/js/7.526ddef5.js"><link rel="prefetch" href="/assets/js/8.c1091489.js"><link rel="prefetch" href="/assets/js/9.19f5d287.js"><link rel="prefetch" href="/assets/js/10.62342e6f.js"><link rel="prefetch" href="/assets/js/11.34067726.js"><link rel="prefetch" href="/assets/js/12.404a2c78.js"><link rel="prefetch" href="/assets/js/13.26fcfe49.js"><link rel="prefetch" href="/assets/js/14.853db56f.js"><link rel="prefetch" href="/assets/js/15.a0676c31.js"><link rel="prefetch" href="/assets/js/16.d0a947f8.js"><link rel="prefetch" href="/assets/js/17.77d27c46.js"><link rel="prefetch" href="/assets/js/18.612d4520.js"><link rel="prefetch" href="/assets/js/20.78ba3417.js"><link rel="prefetch" href="/assets/js/21.8f333a4d.js"><link rel="prefetch" href="/assets/js/22.3d596f81.js"><link rel="prefetch" href="/assets/js/23.567394cc.js"><link rel="prefetch" href="/assets/js/24.86ac1b5d.js"><link rel="prefetch" href="/assets/js/25.3b9c0cd6.js"><link rel="prefetch" href="/assets/js/26.033688e9.js"><link rel="prefetch" href="/assets/js/27.bdb536ec.js"><link rel="prefetch" href="/assets/js/28.9c0a483e.js"><link rel="prefetch" href="/assets/js/29.f40ca1bf.js"><link rel="prefetch" href="/assets/js/30.d13bd8a5.js"><link rel="prefetch" href="/assets/js/31.9ba48c74.js"><link rel="prefetch" href="/assets/js/32.cbe3562e.js"><link rel="prefetch" href="/assets/js/33.b92e4609.js"><link rel="prefetch" href="/assets/js/34.50e0a4d1.js"><link rel="prefetch" href="/assets/js/35.c5742db4.js"><link rel="prefetch" href="/assets/js/36.4857bad9.js"><link rel="prefetch" href="/assets/js/37.33ba67b8.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.4b10c28d.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div><a href="/" class="home-link router-link-active"><!----><span class="site-name">
+      KK | FE
+    </span></a><div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""><!----></div><nav class="nav-links can-hide"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">笔记</span><span class="arrow right"></span></a><ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----><a href="/javaScript/" class="nav-link">JavaScript</a></li><li class="dropdown-item"><!----><a href="/html-css/" class="nav-link">html/css</a></li><li class="dropdown-item"><!----><a href="/react-vue/" class="nav-link">react/vue</a></li><li class="dropdown-item"><!----><a href="/nodeJs/" class="nav-link">nodeJs</a></li><li class="dropdown-item"><!----><a href="/build/" class="nav-link">build</a></li><li class="dropdown-item"><!----><a href="/thoughts/" class="nav-link">thoughts</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">转载</span><span class="arrow right"></span></a><ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----><a href="/share/k2data/" class="nav-link">K2data</a></li><li class="dropdown-item"><!----><a href="/share/fe/" class="nav-link router-link-active">博客</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">摄影</span><span class="arrow right"></span></a><ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----><a href="https://kangkai.tuchong.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  图虫
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----><a href="/photo/" class="nav-link">原创文章</a></li></ul></div></div><a href="https://github.com/kangkai124" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav></div></header><div class="sidebar-mask"></div><div class="sidebar"><nav class="nav-links"><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">笔记</span><span class="arrow right"></span></a><ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----><a href="/javaScript/" class="nav-link">JavaScript</a></li><li class="dropdown-item"><!----><a href="/html-css/" class="nav-link">html/css</a></li><li class="dropdown-item"><!----><a href="/react-vue/" class="nav-link">react/vue</a></li><li class="dropdown-item"><!----><a href="/nodeJs/" class="nav-link">nodeJs</a></li><li class="dropdown-item"><!----><a href="/build/" class="nav-link">build</a></li><li class="dropdown-item"><!----><a href="/thoughts/" class="nav-link">thoughts</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">转载</span><span class="arrow right"></span></a><ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----><a href="/share/k2data/" class="nav-link">K2data</a></li><li class="dropdown-item"><!----><a href="/share/fe/" class="nav-link router-link-active">博客</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><a class="dropdown-title"><span class="title">摄影</span><span class="arrow right"></span></a><ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----><a href="https://kangkai.tuchong.com/" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  图虫
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li class="dropdown-item"><!----><a href="/photo/" class="nav-link">原创文章</a></li></ul></div></div><a href="https://github.com/kangkai124" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></nav><div class="carbon-ads"></div><ul class="sidebar-links"><li><div class="sidebar-group first collapsable"><p class="sidebar-heading"><span>杂谈</span><span class="arrow right"></span></p><!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading"><span>前端框架</span><span class="arrow right"></span></p><!----></div></li><li><div class="sidebar-group collapsable"><p class="sidebar-heading open"><span>css</span><span class="arrow down"></span></p><ul class="sidebar-group-items"><li><a href="/share/fe/awesome-css-1.html" class="sidebar-link">不定期更新的CSS奇淫技巧（一）</a></li><li><a href="/share/fe/awesome-css-2.html" class="active sidebar-link">不定期更新的CSS奇淫技巧（二）</a><ul class="sidebar-sub-headers"></ul></li></ul></div></li></ul></div><div class="page"><div class="content"><h1 id="不定期更新的css奇淫技巧（二）"><a href="#不定期更新的css奇淫技巧（二）" aria-hidden="true" class="header-anchor">#</a> 不定期更新的CSS奇淫技巧（二）</h1><p>作者：<a href="https://juejin.im/user/5a66053d518825735300bd4d" target="_blank" rel="noopener noreferrer">小小茂茂<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p><p>拖更很久，各位小哥哥、小姐姐别介意，今天本来会死在襁褓（草稿待了一个月）中的 不定期更新的CSS奇淫技巧（二）终于出来了，本文可能会水份居多，如有问题欢迎提议我会逐步榨干它</p><h3 id="七、css-绝对底部"><a href="#七、css-绝对底部" aria-hidden="true" class="header-anchor">#</a> 七、CSS 绝对底部</h3><h4 id="代码："><a href="#代码：" aria-hidden="true" class="header-anchor">#</a> 代码：</h4><div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">方案一：原理————正（padding）负（margin）抵消法
+&lt;style&gt;
+*</span> <span class="token punctuation">{</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">body</span> <span class="token punctuation">{</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 100vh<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">#wrap</span> <span class="token punctuation">{</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> auto<span class="token punctuation">;</span>
+    <span class="token property">min-height</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">#main</span> <span class="token punctuation">{</span>
+    <span class="token property">padding-bottom</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span> <span class="token comment">/* 和footer相同的高度 */</span>
+<span class="token punctuation">}</span>  
+<span class="token selector">#footer</span> <span class="token punctuation">{</span>
+    <span class="token property">margin-top</span><span class="token punctuation">:</span> -150px<span class="token punctuation">;</span> <span class="token comment">/* footer高度的负值 */</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span>
+	<span class="token property">background</span><span class="token punctuation">:</span> #0c8ed9
+<span class="token punctuation">}</span>
+<span class="token selector">&lt;/style&gt;
+
+&lt;div id=&quot;wrap&quot;&gt;
+    &lt;div id=&quot;main&quot;&gt;正文&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&quot;footer&quot;&gt;底部&lt;/div&gt; &lt;!--底部和外层同级--&gt;
+
+方案二：原理———— flex 布局
+&lt;style&gt;
+*</span> <span class="token punctuation">{</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">#wrap</span> <span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+    <span class="token property">flex-flow</span><span class="token punctuation">:</span> column<span class="token punctuation">;</span>
+    <span class="token property">min-height</span><span class="token punctuation">:</span> 100vh<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">#main</span> <span class="token punctuation">{</span>
+    <span class="token property">flex</span><span class="token punctuation">:</span>1<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>  
+<span class="token selector">#footer</span> <span class="token punctuation">{</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span>
+	<span class="token property">background</span><span class="token punctuation">:</span> #0c8ed9
+<span class="token punctuation">}</span>
+&lt;/style&gt;
+&lt;div id=<span class="token string">&quot;wrap&quot;</span>&gt;
+    &lt;div id=<span class="token string">&quot;main&quot;</span>&gt;正文&lt;/div&gt;
+    &lt;div id=<span class="token string">&quot;footer&quot;</span>&gt;底部&lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div><h4 id="效果图"><a href="#效果图" aria-hidden="true" class="header-anchor">#</a> 效果图</h4><p><img src="https://user-gold-cdn.xitu.io/2018/7/31/164f10e7deb2a94e?imageslim" alt="CSS 绝对底部"></p><h3 id="八、多边框"><a href="#八、多边框" aria-hidden="true" class="header-anchor">#</a> 八、多边框</h3><h4 id="先上效果图"><a href="#先上效果图" aria-hidden="true" class="header-anchor">#</a> 先上效果图</h4><p><img src="https://user-gold-cdn.xitu.io/2018/8/7/16513085cc086ccd?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt=" （伪元素） 方案"></p><h4 id="方案一：border-outline-（伪元素）-方案"><a href="#方案一：border-outline-（伪元素）-方案" aria-hidden="true" class="header-anchor">#</a> 方案一：<code>border + outline</code> （伪元素） 方案</h4><h5 id="代码：-2"><a href="#代码：-2" aria-hidden="true" class="header-anchor">#</a> 代码：</h5><div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">&lt;style&gt;
+*</span> <span class="token punctuation">{</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">body</span> <span class="token punctuation">{</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.one-box</span> <span class="token punctuation">{</span>
+    <span class="token property">display</span><span class="token punctuation">:</span> flex<span class="token punctuation">;</span>
+    <span class="token property">justify-content</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+    <span class="token property">align-items</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 310px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 310px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment">/*
+ * 由于使用伪元素和 outline 制作的边框是脱离文档流的，建议再套一个 div 并使用水平垂直居中 防止影响其他样式
+ */</span>
+<span class="token selector">.one</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> relative<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #999<span class="token punctuation">;</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 10px double #ff0000<span class="token punctuation">;</span>
+    <span class="token property">outline</span><span class="token punctuation">:</span> 10px solid <span class="token function">rgb</span><span class="token punctuation">(</span>255, 136, 0<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">outline-offset</span><span class="token punctuation">:</span> 0px<span class="token punctuation">;</span> <span class="token comment">/* 控制 outline 的偏移位置 */</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.one::before</span> <span class="token punctuation">{</span>
+    <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">;</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">top</span><span class="token punctuation">:</span> -40px<span class="token punctuation">;</span>
+    <span class="token property">right</span><span class="token punctuation">:</span> -40px<span class="token punctuation">;</span>
+    <span class="token property">bottom</span><span class="token punctuation">:</span> -40px<span class="token punctuation">;</span>
+    <span class="token property">left</span><span class="token punctuation">:</span> -40px<span class="token punctuation">;</span>
+    <span class="token property">z-index</span><span class="token punctuation">:</span> -1<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #f7fc00<span class="token punctuation">;</span>
+    <span class="token property">background-clip</span><span class="token punctuation">:</span> content-box<span class="token punctuation">;</span> <span class="token comment">/* 当使用伪元素的背景做为边框时需要使用该属性控制背景的区域 */</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 10px dashed <span class="token function">rgb</span><span class="token punctuation">(</span>56, 252, 8<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">outline</span><span class="token punctuation">:</span> 10px inset <span class="token function">rgb</span><span class="token punctuation">(</span>3, 194, 252<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.one::after</span> <span class="token punctuation">{</span>
+    <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">''</span><span class="token punctuation">;</span>
+    <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span>
+    <span class="token property">top</span><span class="token punctuation">:</span> -70px<span class="token punctuation">;</span>
+    <span class="token property">right</span><span class="token punctuation">:</span> -70px<span class="token punctuation">;</span>
+    <span class="token property">bottom</span><span class="token punctuation">:</span> -70px<span class="token punctuation">;</span>
+    <span class="token property">left</span><span class="token punctuation">:</span> -70px<span class="token punctuation">;</span>
+    <span class="token property">z-index</span><span class="token punctuation">:</span> -2<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #fc000d<span class="token punctuation">;</span>
+    <span class="token property">background-clip</span><span class="token punctuation">:</span> content-box<span class="token punctuation">;</span> <span class="token comment">/* 当使用伪元素的背景做为边框时需要使用该属性控制背景的区域 */</span>
+    <span class="token property">border</span><span class="token punctuation">:</span> 10px dotted <span class="token function">rgb</span><span class="token punctuation">(</span>56, 252, 8<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token property">outline</span><span class="token punctuation">:</span> 10px outset <span class="token function">rgb</span><span class="token punctuation">(</span>252, 3, 177<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+&lt;/style&gt;
+&lt;div class=<span class="token string">&quot;one-box&quot;</span>&gt;
+    &lt;div class=<span class="token string">&quot;one&quot;</span>&gt;方案一&lt;/div&gt;
+&lt;/div&gt;
+</code></pre></div><h5 id="特点"><a href="#特点" aria-hidden="true" class="header-anchor">#</a> 特点</h5><ol><li><code>outline</code> 不受 <code>border-radius</code> 影响（可以制作出一种方边框一种圆角边框）</li><li><code>outline</code> 和 <code>border</code> 一样可以 <a href="https://link.juejin.im/?target=http%3A%2F%2Fwww.w3school.com.cn%2Fcssref%2Fpr_outline-style.asp" target="_blank" rel="noopener noreferrer">自定义边框样式<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></li><li>可以通过 <code>outline-offset</code>控制 outline 的位置</li><li>边框数量有限（加上 <code>::before / ::after</code> 的 <code>background / border / outline</code> 最多 8 种边框）</li></ol><h4 id="方案二：box-shadow-方案"><a href="#方案二：box-shadow-方案" aria-hidden="true" class="header-anchor">#</a> 方案二：<a href="https://link.juejin.im/?target=http%3A%2F%2Fwww.w3cplus.com%2Fcontent%2Fcss3-box-shadow" target="_blank" rel="noopener noreferrer"><code>box-shadow</code><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 方案</h4><h5 id="代码：-3"><a href="#代码：-3" aria-hidden="true" class="header-anchor">#</a> 代码：</h5><div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">&lt;style&gt;
+*</span> <span class="token punctuation">{</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">body</span> <span class="token punctuation">{</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.two</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span> 110px<span class="token punctuation">;</span>
+    <span class="token property">background-color</span><span class="token punctuation">:</span> #999<span class="token punctuation">;</span>
+    <span class="token property">box-shadow</span><span class="token punctuation">:</span>inset 0 0 0 10px #ff0000,
+               inset 0 0 0 20px <span class="token function">rgb</span><span class="token punctuation">(</span>255, 136, 0<span class="token punctuation">)</span>,
+               inset 0 0 0 30px <span class="token function">rgb</span><span class="token punctuation">(</span>166, 255, 0<span class="token punctuation">)</span>,
+               inset 0 0 0 40px <span class="token function">rgb</span><span class="token punctuation">(</span>0, 102, 255<span class="token punctuation">)</span>,
+               inset 0 0 0 50px <span class="token function">rgb</span><span class="token punctuation">(</span>255, 0, 221<span class="token punctuation">)</span>,
+               inset 0 0 0 60px <span class="token function">rgb</span><span class="token punctuation">(</span>0, 255, 191<span class="token punctuation">)</span>,
+               inset 0 0 0 70px <span class="token function">rgb</span><span class="token punctuation">(</span>225, 0, 255<span class="token punctuation">)</span>,
+               inset 0 0 0 80px <span class="token function">rgb</span><span class="token punctuation">(</span>81, 255, 0<span class="token punctuation">)</span>,
+               inset 0 0 0 90px <span class="token function">rgb</span><span class="token punctuation">(</span>255, 0, 106<span class="token punctuation">)</span>,
+               inset 0 0 0 100px <span class="token function">rgb</span><span class="token punctuation">(</span>255, 153, 0<span class="token punctuation">)</span>,
+               inset 0 0 0 110px <span class="token function">rgb</span><span class="token punctuation">(</span>30, 255, 0<span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token comment">/*
+     *对象选择器 {box-shadow:投影方式 X轴偏移量 Y轴偏移量 阴影模糊半径 阴影扩展半径 阴影颜色}
+     */</span>
+<span class="token punctuation">}</span>
+&lt;/style&gt;
+&lt;div class=<span class="token string">&quot;two&quot;</span>&gt;&lt;/div&gt;
+</code></pre></div><h5 id="特点-2"><a href="#特点-2" aria-hidden="true" class="header-anchor">#</a> 特点</h5><ol><li>边框样式单一</li><li>可以制作渐变边框</li><li>可以制作圆角边框</li><li>边框数量不像方案一有限制</li></ol><h4 id="使用建议："><a href="#使用建议：" aria-hidden="true" class="header-anchor">#</a> 使用建议：</h4><p>需要两种边框、多样式边框时可以优先使用方案一，需要渐变边框、多层边框可以使用方案二，虽说方案一使用伪元素后可以高达8种边框，但是样式代码众多，不太建议，当然具体使用情况各位小哥哥、小姐姐可以根据实际需求，也可以结合方案一和方案二制作多边框</p><p>感谢 <a href="https://link.juejin.im/?target=https%3A%2F%2Fjuejin.im%2Fuser%2F5b19d785e51d4506e1749a92" target="_blank" rel="noopener noreferrer">@Vinsea<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 的提议</p><h3 id="九、bfc"><a href="#九、bfc" aria-hidden="true" class="header-anchor">#</a> 九、BFC</h3><h4 id="什么是-bfc"><a href="#什么是-bfc" aria-hidden="true" class="header-anchor">#</a> 什么是 BFC</h4><p><a href="https://link.juejin.im/?target=https%3A%2F%2Fwww.w3.org%2FTR%2FCSS2%2Fvisuren.html%23block-formatting" target="_blank" rel="noopener noreferrer">W3C 定义<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a>：浮动，绝对定位元素，inline-blocks, table-cells, table-captions,和overflow的值不为visible的元素，（除了这个值已经被传到了视口的时候）将创建一个新的块级格式化上下</p><h4 id="产生条件"><a href="#产生条件" aria-hidden="true" class="header-anchor">#</a> 产生条件</h4><ol><li><code>float</code> 的值不为 <code>none</code></li><li><code>position</code> 的值不为 <code>static</code> 或者 <code>relative</code></li><li><code>display</code> 的值为 <code>table-cell</code>, <code>table-caption</code>, <code>inline-block</code>, <code>flex</code>, 或者 <code>inline-flex</code> 中的其中一个</li><li><code>overflow</code> 的值不为 <code>visible</code></li><li><code>display:flow-root</code>: 最安全无副作用的做法 （但是 <a href="https://link.juejin.im/?target=https%3A%2F%2Fcaniuse.com%2F%23search%3Dflow-root" target="_blank" rel="noopener noreferrer">兼容<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 头疼）</li></ol><p><img src="https://user-gold-cdn.xitu.io/2018/8/7/165132477ed787db?imageView2/0/w/1280/h/960/format/webp/ignore-error/1" alt="img"></p><h4 id="特性"><a href="#特性" aria-hidden="true" class="header-anchor">#</a> 特性</h4><ol><li>内部的Box会在垂直方向，从顶部开始一个接一个地放置。</li><li>Box垂直方向的距离由margin决定。属于同一个BFC的两个相邻Box的margin会发生叠加</li><li>每个元素的margin box的左边， 与包含块border</li><li>box的左边相接触(对于从左往右的格式化，否则相反)。即使存在浮动也是如此。</li><li>BFC的区域不会与float box叠加。</li><li>BFC就是页面上的一个隔离的独立容器，容器里面的子元素不会影响到外面的元素，反之亦然。</li><li>计算BFC的高度时，浮动元素也参与计算</li></ol><h4 id="使用场景"><a href="#使用场景" aria-hidden="true" class="header-anchor">#</a> 使用场景</h4><ol><li>用于清除浮动，计算BFC高度</li></ol><div class="language- extra-class"><pre class="language-text"><code>ul {
+    overflow: hidden; /*创建 BFC */
+}
+li {
+    float: left;
+    width: 100px;
+    height: 200px;
+    background-color: #f7fc00;
+    overflow: hidden;
+}
+li:first-child{
+    background-color: #fc000d;
+}
+&lt;/style&gt;
+&lt;ul&gt;
+    &lt;li&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre></div><ol><li>自适应两栏布局</li></ol><div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>style</span><span class="token punctuation">&gt;</span></span><span class="token style language-css">
+<span class="token selector">.aside</span> <span class="token punctuation">{</span>
+    <span class="token property">width</span><span class="token punctuation">:</span> 100px<span class="token punctuation">;</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 150px<span class="token punctuation">;</span>
+    <span class="token property">float</span><span class="token punctuation">:</span> left<span class="token punctuation">;</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> #ff0000<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">.main</span> <span class="token punctuation">{</span>
+    <span class="token property">height</span><span class="token punctuation">:</span> 200px<span class="token punctuation">;</span>
+    <span class="token property">background</span><span class="token punctuation">:</span> #f7fc00<span class="token punctuation">;</span>
+    <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span> <span class="token comment">/*创建 BFC */</span>
+<span class="token punctuation">}</span>
+</span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>style</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>aside<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>main<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><ol><li>解决margin叠加问题</li></ol><p>篇幅有限 想了解更多可以去 <a href="https://link.juejin.im/?target=https%3A%2F%2Fwww.w3cplus.com%2Fblog%2Ftags%2F389.html" target="_blank" rel="noopener noreferrer">w3cplus BFC 详解<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p><p>感谢 <a href="https://link.juejin.im/?target=https%3A%2F%2Fjuejin.im%2Fuser%2F5b1c8e0de51d455c6e0acdcc" target="_blank" rel="noopener noreferrer">@百草园<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 的提议</p><h3 id="十、新一代变量骚操作（-css-自定义属性）"><a href="#十、新一代变量骚操作（-css-自定义属性）" aria-hidden="true" class="header-anchor">#</a> 十、新一代变量骚操作（ CSS 自定义属性）</h3><h4 id="效果图-2"><a href="#效果图-2" aria-hidden="true" class="header-anchor">#</a> 效果图</h4><p>不好意思又是音乐播放器的图，只因为喜欢听音乐</p><p><img src="https://user-gold-cdn.xitu.io/2018/7/20/164b81f0efceb29a?imageslim" alt="效果图"></p><h4 id="代码（我在音乐播放器中的使用）"><a href="#代码（我在音乐播放器中的使用）" aria-hidden="true" class="header-anchor">#</a> 代码（我在音乐播放器中的使用）</h4><ol><li>根元素设置全局自定义属性</li></ol><div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">:root</span> <span class="token punctuation">{</span>
+	<span class="token property">--THEME</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--USER-THEME-COLOR, #e5473c<span class="token punctuation">)</span><span class="token punctuation">;</span>
+	<span class="token property">--THEME-COLOR</span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--USER-THEME-COLOR, #e5473c<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><ol><li>将全局自定义属性设置为 <code>SASS</code> 变量</li></ol><div class="language-scss extra-class"><pre class="language-scss"><code><span class="token property"><span class="token variable">$theme-color</span></span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--THEME<span class="token punctuation">)</span><span class="token punctuation">;</span>
+<span class="token property"><span class="token variable">$theme-bg</span></span><span class="token punctuation">:</span> <span class="token function">var</span><span class="token punctuation">(</span>--THEME<span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre></div><ul><li>为什么使用 <code>SASS</code> 变量做为自定义属性的载体</li><li><ol><li>方便管理（统一的var.scss文件编写主题变量）</li></ol></li><li><ol><li>避免直接修改全局自定义属性</li></ol></li></ul><ol><li>JS 修改全局自定义属性</li></ol><div class="language-js extra-class"><pre class="language-js"><code><span class="token keyword">const</span> elm <span class="token operator">=</span> document<span class="token punctuation">.</span>documentElement
+<span class="token keyword">const</span> colorArr <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token string">'#e5473c'</span><span class="token punctuation">,</span> <span class="token string">'#31c27c'</span><span class="token punctuation">,</span> <span class="token string">'#0c8ed9'</span><span class="token punctuation">,</span> <span class="token string">'#f60'</span><span class="token punctuation">]</span>
+elm<span class="token punctuation">.</span>style<span class="token punctuation">.</span><span class="token function">setProperty</span><span class="token punctuation">(</span><span class="token string">'--USER-THEME-COLOR'</span><span class="token punctuation">,</span> colorArr<span class="token punctuation">[</span>i<span class="token punctuation">]</span><span class="token punctuation">)</span>
+i <span class="token operator">=</span> <span class="token punctuation">(</span>i <span class="token operator">+</span> <span class="token number">1</span><span class="token punctuation">)</span> <span class="token operator">%</span> colorArr<span class="token punctuation">.</span>length
+</code></pre></div><p>更多介绍 ==&gt; <a href="https://link.juejin.im/?target=https%3A%2F%2Fwww.w3cplus.com%2Fcss%2Fcss-custom-properties-strategy-guide.html" target="_blank" rel="noopener noreferrer">CSS自定义属性使用指南<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p><p><a href="https://link.juejin.im/?target=https%3A%2F%2Fgithub.com%2Fmaomao1996%2Freact-music" target="_blank" rel="noopener noreferrer">效果图Github地址<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p><p><a href="https://link.juejin.im/?target=http%3A%2F%2Freactmusic.mtnhao.com%2F" target="_blank" rel="noopener noreferrer">音乐播放器展示地址<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p><h3 id="十一、png-格式小图标的-css-任意颜色赋色技术"><a href="#十一、png-格式小图标的-css-任意颜色赋色技术" aria-hidden="true" class="header-anchor">#</a> 十一、PNG 格式小图标的 CSS 任意颜色赋色技术</h3><h4 id="代码：-4"><a href="#代码：-4" aria-hidden="true" class="header-anchor">#</a> 代码：</h4><div class="language-cssc extra-class"><pre class="language-text"><code>&lt;style&gt;
+.icon-color{
+	display: inline-block;
+	width: 144px;
+	height: 144px;
+	background: url('https://user-gold-cdn.xitu.io/2018/7/31/164f0e6745afe2ba?w=144&amp;h=144&amp;f=png&amp;s=2780') no-repeat center / cover;
+	overflow: hidden;
+}
+.icon-color:after{
+	content: '';
+	display: block;
+	height: 100%;
+	transform: translateX(-100%);
+	background: inherit;
+	filter: drop-shadow(144px 0 0 #42b983); // 需要修改的颜色值
+}
+&lt;/style&gt;
+
+&lt;i class=&quot;icon-color&quot;&gt;&lt;/i&gt;
+</code></pre></div><h4 id="效果图-3"><a href="#效果图-3" aria-hidden="true" class="header-anchor">#</a> 效果图</h4><p><img src="https://user-gold-cdn.xitu.io/2018/7/31/164f0edd59324934?imageslim" alt="PNG 格式小图标的 CSS 任意颜色赋色技术"></p><h4 id="原理："><a href="#原理：" aria-hidden="true" class="header-anchor">#</a> 原理：</h4><p>使用 <code>CSS3</code> 滤镜 <code>filter</code> 中的 <code>drop-shadow</code>。</p><ol><li><code>drop-shadow</code> 滤镜可以给元素或图片非透明区域添加投影</li><li>将背景透明的 PNG 图标施加一个不带模糊的投影，就等同于生成了另外一个颜色的图标</li><li>再通过 <code>overflow:hidden</code> 和位移处理将原图标隐藏</li></ol><p>PS：我测试过大部分设备还是可行的，不过我写的 <a href="https://link.juejin.im/?target=http%3A%2F%2Freactmusic.mtnhao.com" target="_blank" rel="noopener noreferrer">deom (react 版音乐播放器)<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a> 涉及众多奇淫技巧，所以还是不做参考</p><p><a href="https://link.juejin.im/?target=https%3A%2F%2Fwww.zhangxinxu.com%2Fwordpress%2F2016%2F06%2Fpng-icon-change-color-by-css%2F" target="_blank" rel="noopener noreferrer">原文地址：高产的张鑫旭大佬<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p><h3 id="感谢"><a href="#感谢" aria-hidden="true" class="header-anchor">#</a> 感谢</h3><blockquote><p><a href="https://link.juejin.im/?target=https%3A%2F%2Fwww.zhangxinxu.com" target="_blank" rel="noopener noreferrer">张鑫旭的个人主页<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p><p><a href="https://link.juejin.im/?target=https%3A%2F%2Fwww.w3cplus.com%2F" target="_blank" rel="noopener noreferrer">w3cplus_引领web前沿，打造前端精品教程<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></blockquote><h3 id="tips"><a href="#tips" aria-hidden="true" class="header-anchor">#</a> Tips</h3><p>当各位遇到布局问题的时候可以去各大 <code>UI</code> 框架翻你要实现的效果的代码，看看他们是如何解决的，我遇到样式布局的坑基本就这样整，除非特别罕见的一般都能这样解决。</p><blockquote><p>原文地址：<a href="https://juejin.im/post/5b607a0b6fb9a04fd260aa70" target="_blank" rel="noopener noreferrer">https://juejin.im/post/5b607a0b6fb9a04fd260aa70<svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path><polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></p></blockquote></div><div class="page-nav"><p class="inner"><span class="prev">
+        ← <a href="/share/fe/awesome-css-1.html" class="prev">
+          不定期更新的CSS奇淫技巧（一）
+        </a></span><!----></p></div><div class="bsa-cpc-wrapper"><div class="bsa-cpc"></div></div></div></div></div>
+    <script src="/assets/js/19.2b375517.js" defer></script><script src="/assets/js/app.78b8ba49.js" defer></script>
+  </body>
+</html>
