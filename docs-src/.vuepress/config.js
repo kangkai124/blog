@@ -73,6 +73,7 @@ module.exports = {
     repo: 'kangkai124',
     editLinks: true,
     docsDir: 'docs-src',
+    lastUpdated: 'Last Updated',
     nav: [
       {
         text: '笔记',
