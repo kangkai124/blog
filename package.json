@@ -7,8 +7,8 @@
     "vuepress": "bin/vuepress.js"
   },
   "scripts": {
-    "dev": "node bin/vuepress dev docs-src",
-    "build": "node bin/vuepress build docs-src",
+    "dev": "node bin/vuepress dev src",
+    "build": "node bin/vuepress build src",
     "lint": "eslint --fix --ext .js,.vue bin/ lib/ test/",
     "prepublishOnly": "conventional-changelog -p angular -r 2 -i CHANGELOG.md -s",
     "release": "/bin/bash scripts/release.sh",

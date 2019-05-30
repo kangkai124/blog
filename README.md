@@ -23,6 +23,8 @@
 18. [重学前端里的问题](https://github.com/kangkai124/blog/issues/19)
 19. [收集好文](https://github.com/kangkai124/blog/issues/20)
 20. [防抖和节流](https://github.com/kangkai124/blog/issues/21)
+21. [Reduce 实现 Promise 串行执行](https://github.com/kangkai124/blog/issues/22)
+22. [JavaScript深入尝试](https://github.com/kangkai124/blog/issues/23)
 
 ## 前端体系框架
 ![前端体系框架](./assets/fe-system.jpg)
