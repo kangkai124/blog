@@ -25,6 +25,7 @@
 20. [防抖和节流](https://github.com/kangkai124/blog/issues/21)
 21. [Reduce 实现 Promise 串行执行](https://github.com/kangkai124/blog/issues/22)
 22. [JavaScript深入尝试](https://github.com/kangkai124/blog/issues/23)
+22. [js event loop 事件循环](https://github.com/kangkai124/blog/issues/24)
 
 ## 前端体系框架
 ![前端体系框架](./assets/fe-system.jpg)
@@ -41,4 +42,5 @@ npm run dev
 
 ## TODO
 
-把文章按照体系分类，使用vuepress生成博客。
+[x]把文章按照体系分类，使用vuepress生成博客。
+[ ]同步issue文章到博客中（进行中）
