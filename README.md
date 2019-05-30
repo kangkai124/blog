@@ -41,6 +41,5 @@ npm run dev
 
 
 ## TODO
-
-[x]把文章按照体系分类，使用vuepress生成博客。
-[ ]同步issue文章到博客中（进行中）
+- <del>把文章按照体系分类，使用vuepress生成博客。</del>
+- 同步issue文章到博客中（进行中）
