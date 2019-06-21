@@ -26,6 +26,10 @@
 21. [Reduce 实现 Promise 串行执行](https://github.com/kangkai124/blog/issues/22)
 22. [JavaScript深入尝试](https://github.com/kangkai124/blog/issues/23)
 22. [js event loop 事件循环](https://github.com/kangkai124/blog/issues/24)
+23. [promise ](https://github.com/kangkai124/blog/issues/25)
+24. [前端需要知道的一些概念](https://github.com/kangkai124/blog/issues/26)
+25. [【转】js中的数据类型](https://github.com/kangkai124/blog/issues/27)
+26. [略懂正则](https://github.com/kangkai124/blog/issues/28)
 
 ## 前端体系框架
 ![前端体系框架](./assets/fe-system.jpg)
