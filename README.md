@@ -30,6 +30,9 @@
 24. [前端需要知道的一些概念](https://github.com/kangkai124/blog/issues/26)
 25. [【转】js中的数据类型](https://github.com/kangkai124/blog/issues/27)
 26. [略懂正则](https://github.com/kangkai124/blog/issues/28)
+27. [Polyfill](https://github.com/kangkai124/blog/issues/29)
+28. [lydiahallie/javascript-questions里我的错题](https://github.com/kangkai124/blog/issues/31)
+29. [JS Object](https://github.com/kangkai124/blog/issues/32)
 
 ## 前端体系框架
 ![前端体系框架](./assets/fe-system.jpg)
@@ -46,4 +49,5 @@ npm run dev
 
 ## TODO
 - <del>把文章按照体系分类，使用vuepress生成博客。</del>
+- issues 分类
 - 同步issue文章到博客中（进行中）
